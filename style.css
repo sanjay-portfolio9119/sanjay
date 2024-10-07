@@ -1,0 +1,98 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Profile image styling */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 3px solid #fff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+section {
+    padding: 20px 0;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #333;
+    border-bottom: 2px solid #333;
+    display: inline-block;
+}
+
+p, ul, li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.skills ul {
+    padding-left: 20px;
+}
+
+.skills li::before {
+    content: "✓";
+    color: #333;
+    font-weight: bold;
+    padding-right: 8px;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 1.1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+footer p {
+    font-size: 1rem;
+}
